@@ -1,0 +1,42 @@
+body {
+    background: #f0efb9;
+}
+h1 {
+    font-size: 32px;
+    font-family: sans-serif;
+    text-align: center;
+}
+/* --- Nav Bar --- */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f00707;
+  font-family: arial,sans-serif;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  /* This is a three digit code. Same as #111111 */
+  background-color: #111;
+}
+.housing {
+    float: right;
+}
+table {
+    border: 1px solid black;
+    border-color: red;
+}
