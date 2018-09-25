@@ -1,14 +1,78 @@
 body
 {
-background-color: #FFE4B3
+background-color: #FFE4B3;
+
 }
 
 h1, h2, h3, h4, h5, h6
 {
- background-color: #E8C7A3
+text-align: left;
+background-color: #E8C7A3;
+border-style: solid;
+border-width: 2px;
+margin: 15px;
+padding: 1px;
+
+display: inline;
 }
 
 p
 {
- background-color: #FFD8C0
+ background-color: #FFD8C0;
+}
+
+ul
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+li
+{
+float:left;
+}
+
+li a
+{
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.active
+{
+    background-color: black;
+    color: white;
+}
+
+#summary
+{
+    font-size: 18px;
+}
+
+.menu
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.even
+{
+    background-color: #E8C7A4;
+}
+
+.odd
+{
+    background-color: #FFD8C1
 }
