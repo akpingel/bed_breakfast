@@ -4,33 +4,66 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>About</title>
-            <style> 
-    h1 {
-    border-style: solid;
-    border-color: #f00707;
-    border-width: 4px;
-    margin: 2px;
-    padding: 2px;
-    display: block;
-}
-</style>
+ <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/journal/bootstrap.min.css">
+
+    <title>About</title>
+      
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="index.html">Bed and Breakfast</a>
+          
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="housing.html">Housing</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="breakfast.html">Breakfast</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="booking.html">Booking</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="thingstodo.html">Things To Do</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Main content -->
+    <div class="container">
+        <h1>On-Campus Bed and Breakfast</h1>
+    </div>
 </head>
 
 
 <body>
 <header>
-    <h1>About our Bed and Breakfast</h1>
+    <h1>About</h1>
 </header>
-<nav>
-<ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="housing.html">Housing</a></li>
-    <li><a href="breakfast.html">Breakfast</a></li>
-    <li><a href="booking.html">Booking</a></li>
-    <li><a href="thingstodo.html">Things To Do</a></li>
-</ul>
 
 <img src="img/founders.png" alt="Founders of this Bed and Breakfast">
 
@@ -56,7 +89,15 @@
 <br>
 <footer>
     <p>Posted by: Christopher Shima</p>
-    <p>Contact information: <a href="mailto: christopher.shima@gmail.com">christopher.shima@gmail.com</a></p>
+    <a type="button" class="btn btn-dark" href="mailto: christopher.shima@gmail.com"</button>Contact</a>
+    <br>
+    <br>
+    
 </footer>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
