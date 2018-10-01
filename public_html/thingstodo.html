@@ -2,9 +2,37 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <meta charset="utf-8">
     <title>Things to Do</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css">
+    
+    <style>
+
+.header
+{
+text-align: left;
+background-color: #E8C7A3;
+border-style: solid;
+border-width: 2px;
+margin: 15px;
+padding: 1px;
+
+display: inline;
+}
+
+.maincontent
+{
+background-color: #FFD8C0;
+}
+</style>
+    
 </head>
 
 
@@ -12,18 +40,48 @@
 <header>
     <img src="img/logo.png" alt="Simpson Bed and Breakfast logo">
     
-<ul>
-    <li><a href="about.html">About</a></li>
-    <li><a href="booking.html">Booking</a></li>
-    <li><a href="breakfast.html">Breakfast</a></li>
-    <li><a href="housing.html">Housing</a></li>
-    <li><a href="index.html">Home</a></li>
-    <li><a class = "active" href="thingstodo.html">Things To Do</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav mr-auto">
+    
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="booking.html">Booking</a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="breakfast.html">Breakfast</a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="housing.html">Housing</a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+    
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Things To Do <span class="sr-only">(current)</span></a>
+        </li>
 
 </ul>
-<br>
-    <h1>Things To Do</h1>
+</div>
+</nav>
 </header>
+
+    <div class="maincontent col-12">
+<br>
+    <h1 class ="header">Things To Do</h1>
+
 
 
 
@@ -33,14 +91,14 @@
     <a href="http://simpson.edu/student-life/"> Simpson College Events</a>
 </p>
 
-<h3 class ="even">Football Games</h3>
+<h3 class ="header">Football Games</h3>
 <br>
 <img src="img/footballfield.jpg" alt="Simpson College's football field.">
 <p class ="even">Simpson College has varsity football games throughout the fall on Saturdays and JV games on the week days. The following link will take you to their schedule.</p>
 <a href="http://www.simpsonathletics.com/sports/fball/2018-19/schedule">Simpson College Football Schedule</a>
 <br>
 <br>
-<h3 class ="odd">Bingo</h3>
+<h3 class ="header">Bingo</h3>
 <br>
 <img src="img/bingo.jpg" alt="Bingo sheet">
 <p class ="odd">Simpson College has bingo nights open to the public where you can win anything from a jar of pickles to a TV and soundbar. The next one will be September 14th at 9pm.<br/>
@@ -49,6 +107,8 @@ For more information contact Simpson College and they will direct you to the eve
 <br>
 <br>
 <br>
+</div>
+
 
 <footer>
     <p> Posted by: Alyssa Pingel<br/>

@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <meta charset="utf-8">
     <title>Booking</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css">
+    
+    <style>
+
+.header
+{
+text-align: left;
+background-color: #E8C7A3;
+border-style: solid;
+border-width: 2px;
+margin: 15px;
+padding: 1px;
+
+display: inline;
+}
+
+.maincontent
+{
+background-color: #FFD8C0;
+}
+</style>
     
 </head>
 
@@ -11,49 +38,80 @@
 
 <header>
     <img src="img/logo.png" alt="Simpson Bed and Breakfast logo">
-    <ul>
-    <li><a href="about.html">About</a></li>
-    <li><a class = "active" href="booking.html">Booking</a></li>
-    <li><a href="breakfast.html">Breakfast</a></li>
-    <li><a href="housing.html">Housing</a></li>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="thingstodo.html">Things To Do</a></li>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav mr-auto">
+    
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+        </li>
+    
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Booking <span class="sr-only">(current)</span></a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="breakfast.html">Breakfast</a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="housing.html">Housing</a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="thingstodo.html">Things To Do</a>
+        </li>
 
 </ul>
-<br>
-    <h1 class ="even">Simpson's Bed and Breakfast Rooms Available</h1>
-    <br>
-    <h6 class ="odd">*Make sure to ask about our discount for high school students looking for a college! </h6>
+</div>
+</nav>
 </header>
+<br>
+    <div class="maincontent col-12">
+    <h1 class ="header">Simpson's Bed and Breakfast Rooms Available</h1>
+    <br>
+    <h6 class ="header">*Make sure to ask about our discount for high school students looking for a college! </h6>
 
 <br>
-<h3 class ="even">Room in Kresge</h3>
+<h3 class ="header">Room in Kresge</h3>
 <br>
 
 <img src="img/kresge.jpg" alt="Room in Kresge">
 <br>
 <br>
 
-<h4 class ="odd">Double room with Two Full Beds 
+<h4 class ="header">Double room with Two Full Beds 
 $125 per night or $700 for a week.
 $700 is &lt; $825. GREAT SAVINGS!</h4>
-<p class ="even">Call: 515-971-2580 to book this room now or contact us using the information below.</p>
+<p>Call: 515-971-2580 to book this room now or contact us using the information below.</p>
 <br>
 <br>
 
 
-<h3 class ="even">Room in Barker</h3>
+<h3 class ="header">Room in Barker</h3>
 <br>
 
 <img src="img/barker.jpg" alt="Room in Barker">
 <br>
 <br>
-<h4 class ="odd">Double room with Two Full Beds
+<h4 class ="header">Double room with Two Full Beds
 $135 per night or $810 for a week.
 $800 is &lt; $910. GREAT SAVINGS!</h4>
-<p class ="odd">Call: 515-971-2580 to book this room now or contact us using the information below.</p>
+<p>Call: 515-971-2580 to book this room now or contact us using the information below.</p>
 <br>
 <br>
+</div>
+
 <footer>
     <p>Posted by: Alyssa Pingel<br/>
     Contact Information: <a href= "mailto: alyssa.pingel@yahoo.com">alyssa.pingel@yahoo.com</a><br/>

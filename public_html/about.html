@@ -2,28 +2,86 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <meta charset="utf-8">
     <title>About</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css">
+    
+<style>
+
+.header
+{
+text-align: left;
+background-color: #E8C7A3;
+border-style: solid;
+border-width: 2px;
+margin: 15px;
+padding: 1px;
+
+display: inline;
+}
+
+.maincontent
+{
+background-color: #FFD8C0;
+}
+</style>
+    
 </head>
 
 
 <body>
 <header>
-    <img src="img/logo.png" alt="Simpson Bed and Breakfast logo">
-    <ul>
-    <li><a class = "active" href="about.html">About</a></li>
-    <li><a href="booking.html">Booking</a></li>
-    <li><a href="breakfast.html">Breakfast</a></li>
-    <li><a href="housing.html">Housing</a></li>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="thingstodo.html">Things To Do</a></li>
+       <img src="img/logo.png" alt="Simpson Bed and Breakfast logo">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav mr-auto">
+    
+        <li class="nav-item active">
+            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="booking.html">Booking</a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="breakfast.html">Breakfast</a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="housing.html">Housing</a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="thingstodo.html">Things To Do</a>
+        </li>
 
 </ul>
-<br>
-    <h1>About our Bed and Breakfast</h1>
-    <br>
+</div>
+</nav>
 </header>
+<br>
+
+    <div class="maincontent col-12">
+    <h1 class = "header" >About our Bed and Breakfast</h1>
+    <br>
 
 <br>
 <img src="img/founders.png" alt="Founders of this Bed and Breakfast">
@@ -35,16 +93,18 @@ Our staff will make your stay feel like home.</p>
 
 <br>
 <br>
-<h3 class ="even">Directions to our Bed and Breakfast</h3>
+<h3 class ="header">Directions to our Bed and Breakfast</h3>
 <br>
 <br>
-<h4 class ="odd"><em>From Northwest Iowa</em></h4>
+<h4 class ="header"><em>From Northwest Iowa</em></h4>
 <p class="odd">Take highway 20 to I-35. Then exit on to highway 69 which will bring you into Indianola.<br/>
 Finally take the first left and you will arrive at Simpson Bed and Breakfast.</p>
 <br>
-<h4 class = "even" ><em>From the West Des Moines area.</em></h4>
+<h4 class = "header" ><em>From the West Des Moines area.</em></h4>
 <p class ="even">Take I-235 south and continue on it until reaching exit 68. Take that exit onto highway 5 and then continue until reaching exit 70A for Indianola.<br/>
 After taking that exit continue on that road and take the first right and you will arrive.</p>
+</div>
+
 
 <br>
 <br>
