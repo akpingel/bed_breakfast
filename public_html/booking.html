@@ -12,30 +12,10 @@
     <!-- Optional theme add-on -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css">
     
-    <style>
-
-.header
-{
-text-align: left;
-background-color: #E8C7A3;
-border-style: solid;
-border-width: 2px;
-margin: 15px;
-padding: 1px;
-
-display: inline;
-}
-
-.maincontent
-{
-background-color: #FFD8C0;
-}
-</style>
     
 </head>
 
 <body>
-
 <header>
     <img src="img/logo.png" alt="Simpson Bed and Breakfast logo">
     
@@ -76,13 +56,19 @@ background-color: #FFD8C0;
 </div>
 </nav>
 </header>
-<br>
-    <div class="maincontent col-12">
+<div class="container">
     <h1 class ="header">Simpson's Bed and Breakfast Rooms Available</h1>
     <br>
     <h6 class ="header">*Make sure to ask about our discount for high school students looking for a college! </h6>
 
 <br>
+<br>
+
+    <div class = "row">
+        <div class = "col-sm">
+        
+
+
 <h3 class ="header">Room in Kresge</h3>
 <br>
 
@@ -94,10 +80,10 @@ background-color: #FFD8C0;
 $125 per night or $700 for a week.
 $700 is &lt; $825. GREAT SAVINGS!</h4>
 <p>Call: 515-971-2580 to book this room now or contact us using the information below.</p>
-<br>
-<br>
 
+</div>
 
+<div class = "col-sm">
 <h3 class ="header">Room in Barker</h3>
 <br>
 
@@ -108,15 +94,16 @@ $700 is &lt; $825. GREAT SAVINGS!</h4>
 $135 per night or $810 for a week.
 $800 is &lt; $910. GREAT SAVINGS!</h4>
 <p>Call: 515-971-2580 to book this room now or contact us using the information below.</p>
-<br>
-<br>
+</div>
 </div>
 
+
 <footer>
-    <p>Posted by: Alyssa Pingel<br/>
-    Contact Information: <a href= "mailto: alyssa.pingel@yahoo.com">alyssa.pingel@yahoo.com</a><br/>
-     &copy; Copyright 2018. Joey Gale</p>
+    <p> Posted by: Alyssa Pingel<br/>
+        Contact Information: <input type="button" class="btn btn-outline-dark" value="alyssa.pingel@yahoo.com" onclick="location.href = 'mailto: alyssa.pingel@yahoo.com';">
+        &copy; Copyright 2018. Joey Gale</p>
 </footer>
+</div>
 
 </body>
 </html>

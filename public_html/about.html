@@ -13,31 +13,12 @@
     <!-- Optional theme add-on -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sandstone/bootstrap.min.css">
     
-<style>
-
-.header
-{
-text-align: left;
-background-color: #E8C7A3;
-border-style: solid;
-border-width: 2px;
-margin: 15px;
-padding: 1px;
-
-display: inline;
-}
-
-.maincontent
-{
-background-color: #FFD8C0;
-}
-</style>
-    
 </head>
 
 
 <body>
 <header>
+
        <img src="img/logo.png" alt="Simpson Bed and Breakfast logo">
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -78,8 +59,7 @@ background-color: #FFD8C0;
 </nav>
 </header>
 <br>
-
-    <div class="maincontent col-12">
+<div class="container">
     <h1 class = "header" >About our Bed and Breakfast</h1>
     <br>
 
@@ -96,23 +76,31 @@ Our staff will make your stay feel like home.</p>
 <h3 class ="header">Directions to our Bed and Breakfast</h3>
 <br>
 <br>
+
+    <div class = "row">
+        <div class = "col-sm">
+
 <h4 class ="header"><em>From Northwest Iowa</em></h4>
 <p class="odd">Take highway 20 to I-35. Then exit on to highway 69 which will bring you into Indianola.<br/>
 Finally take the first left and you will arrive at Simpson Bed and Breakfast.</p>
-<br>
+</div>
+<div class = "col-sm">
 <h4 class = "header" ><em>From the West Des Moines area.</em></h4>
 <p class ="even">Take I-235 south and continue on it until reaching exit 68. Take that exit onto highway 5 and then continue until reaching exit 70A for Indianola.<br/>
 After taking that exit continue on that road and take the first right and you will arrive.</p>
 </div>
+</div>
+
 
 
 <br>
 <br>
 <br>
 <footer>
-    <p>Posted by: Alyssa Pingel<br/>
-    Contact Information: <a href= "mailto: alyssa.pingel@yahoo.com">alyssa.pingel@yahoo.com</a><br/>
-     &copy; Copyright 2018. Joey Gale</p>
+    <p> Posted by: Alyssa Pingel<br/>
+        Contact Information: <input type="button" class="btn btn-outline-dark" value="alyssa.pingel@yahoo.com" onclick="location.href = 'mailto: alyssa.pingel@yahoo.com';">
+        &copy; Copyright 2018. Joey Gale</p>
 </footer>
+</div>
 </body>
 </html>
