@@ -1,11 +1,6 @@
 
 body {
-    background-color: #BA9491;
     font-family: Arial;
-}
-
-h1 {
-    color: #0D0D0D
 }
 
 .img {
@@ -15,7 +10,6 @@ h1 {
 
 section {
     border-style: dotted;
-    border-color: #40090d;
     border-width: 6px;
     border-radius: 3px;
     margin: 6px;
@@ -34,7 +28,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0D0D0D;
 }
 
 li {
@@ -43,7 +36,6 @@ li {
 
 li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
