@@ -1,6 +1,15 @@
 
+h1{
+	padding: 25px;
+|}
+
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+	font-size: 14px;
+	font-family: Arial, sans-serif;
 }
 
 .img {
@@ -23,13 +32,10 @@ section {
     padding: 6px;
 }
 
-#phone {
+.center {
     text-align: center;
     }
     
-#phone2 {
-    text-align: center;
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -51,16 +57,12 @@ li a {
 /* color change on hover*/
 
 li a:hover {
-    background-color: #8C635A;
+    background-color: #FF8400;
 }
-.active {
-    background-color: #40090D;
-}
-
 
 th, td {
-    padding: 15px;
-    text-align: left;
+    padding: 10px;
+    text-align: center;
 }
 th {
     font-size: 25px;
